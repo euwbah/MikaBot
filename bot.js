@@ -57,9 +57,9 @@ bot.on("message", (message) => {
   if(message.author.id !== config.ownerID) return;
   if(command === "admincheck"){
     message.channel.send("yes");
-  } else (
+  } else {
     message.channel.send("no");
-  )
+  }
 
 }); //end of bot.on
 
